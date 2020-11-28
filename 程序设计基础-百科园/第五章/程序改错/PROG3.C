@@ -14,7 +14,7 @@ int fun(int a[],int m)
          if(m<a[mid])
              high=mid-1;
 /**********ERROR**********/
-         else if(m>a[mid])
+         else if(a[mid]<m)
              low=mid+1;
          else  return(mid);
       }
