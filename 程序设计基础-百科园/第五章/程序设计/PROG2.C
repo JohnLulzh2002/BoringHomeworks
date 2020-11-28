@@ -6,10 +6,12 @@
 double fun(double x[],int n)
 {
 /************Begin**************/	
- 
-
-
-
+	double s=0;
+	int i;
+	for(i=0;i<n-1;i++){
+		s+=sqrt((x[i]+x[i+1])/2);
+	}
+	return s;
 /************End**************/
 }
 int main()

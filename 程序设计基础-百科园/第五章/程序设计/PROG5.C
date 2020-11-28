@@ -8,9 +8,16 @@
 void fun(char a[][81], int num, char max[])
 {
 /***************Begin************/
-  
-
-
+	int l,m=0,i,p;
+	for(i=0;i<num;i++){
+		l=strlen(a[i]);
+		if(l>m){
+			p=i;
+			m=l;
+		}
+	}
+	for(i=0;i<=m;i++)
+		max[i]=a[p][i];
 /*************** End ************/
 }
 int main()

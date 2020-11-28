@@ -7,9 +7,13 @@
 void  fun(int tt[M][N],int pp[N])
 {
 /************Begin**************/
-
-
-
+	int i,j;
+	for(i=0;i<N;i++){
+		pp[i]=0;
+		for(j=0;j<M;j++)
+			if(tt[j][i]>pp[i])
+				pp[i]=tt[j][i];
+	}
 /************End**************/
 }
 int main()
