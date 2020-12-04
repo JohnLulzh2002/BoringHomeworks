@@ -1,4 +1,4 @@
-# Boring homeworks and their answers
+# Boring homeworks in NUIST and their answers
 
 ## 借鉴之前，必须注册Github账号，并至少Star此Repo！
 
