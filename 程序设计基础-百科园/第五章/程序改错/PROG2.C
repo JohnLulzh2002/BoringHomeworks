@@ -7,7 +7,7 @@ int fun(int b[])
 { 
   int k,a1,a2,i=0;
 /**********ERROR**********/
-  for(k=1;k<=55;k++)
+  for(k=1;k<=550;k++)
   {
 	a2=k/10;
 	a1=k-a2*10;

@@ -9,10 +9,17 @@
 int fun(int lim, int aa[MAX])
 {
 /**********Begin**********/
-
-
-
-
+	int i,j,count=0,t;
+	for(i=2;i<=lim;i++){
+		t=1;
+		for(j=2;j*j<=i;j++)
+			if(i%j==0){
+				t=0;
+				break;
+			}
+		if(t)aa[count++]=i;
+	}
+	return count;
 /**********End**********/  
 }
 int main()

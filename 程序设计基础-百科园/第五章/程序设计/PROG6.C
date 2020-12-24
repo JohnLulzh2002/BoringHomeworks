@@ -11,10 +11,12 @@ SecondString
 void fun(char p1[],char p2[])
 {
      /***************Begin************/
-	int i=0,j=0;
-	for(;p1[i];i++);
-	for(;p2[j];j++)	p1[i++]=p2[j];
-	p1[i]=0;
+	 int i,j; 
+    for(i=0;p1[i]!='\0';i++);
+    for(j=0;p2[j]!= '\0';j++)
+        p1[i++]=p2[j];  
+    p1[i]= '\0';
+
      /*************** End ************/
 }
 int main()

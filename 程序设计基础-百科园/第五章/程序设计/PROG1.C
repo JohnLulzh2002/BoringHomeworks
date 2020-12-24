@@ -12,11 +12,13 @@
 void fun (int array[3][3])
 {
 /************Begin**************/
-  long n=0,i=0;
-  int flag=1;
-  if(p[i]=='1'){
-	  i++;flag=-1;}
-  if(p[i]=='+')
+  int i,j;
+  for(i=0;i<3;i++)
+	  for(j=i+1;j<3;j++){
+		  array[i][j]+=array[j][i];
+		  array[j][i]=array[i][j]-array[j][i];
+		  array[i][j]-=array[j][i];
+	  }
 /************End**************/
   
 }
