@@ -3,10 +3,9 @@
 int main(){
 	int n,l,i,t;
 	char s[1000];
-	while(scanf("%d",&n)==1){
+	while(~scanf("%d",&n)){
 		for(;n;n--){
-			scanf("%*c");
-			scanf("%[^\n]",s);
+			scanf("%*c%[^\n]",s);
 			l=strlen(s);
 			t=1;
 			for(i=0;i<l/2;i++)

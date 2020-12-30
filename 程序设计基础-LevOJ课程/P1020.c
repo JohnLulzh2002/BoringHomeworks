@@ -3,7 +3,7 @@
 int main(){
 	int i=0,l,max=0,min=501,a,b;
 	char s[501][501];
-	while(scanf("%s",s[i])==1){
+	while(~scanf("%s",s[i])){
 		if((l=strlen(s[i]))>max){
 			max=l;
 			a=i;

@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main(){
 	int i,s;
-	char a[30];
-	while(scanf("%s",a)==1){
+	char a[10];
+	while(~scanf("%s",a)){
 		if(a[0]=='0'&&a[1]==0)
 			break;
 		s=0;

@@ -2,11 +2,11 @@
 int main(){
 	char a[1001];
 	int i;
-	while(scanf("%s",a)+1){
-		for(i=0;a[i];i++)
-			if(a[i]-'*')
-				printf("%c",a[i]);
-		for(i--;a[i]=='*';i--)
+	while(~scanf("%s",a)){
+		for(i=-1;a[i+1];i++)
+			if(a[i+1]-'*')
+				printf("%c",a[i+1]);
+		for(;a[i]=='*';i--)
 			printf("*");
 		printf("\n");
 	}

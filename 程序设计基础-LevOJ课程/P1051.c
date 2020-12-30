@@ -2,7 +2,7 @@
 int prime(int n){
 	int i=2,s=1;
 	for(;i*i<=n;i++)
-		if(n%i==0)
+		if(!(n%i))
 			return 0;
 	return 1;
 }
@@ -19,9 +19,11 @@ int main(){
 			}
 			if(prime(b))
 				printf("1\n");
-			else printf("0\n");
+			else
+				printf("0\n");
 		}
-		else printf("0\n");
+		else
+			printf("0\n");
 	}
 	return 0;
 }

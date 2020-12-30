@@ -3,7 +3,7 @@
 int main(){
 	char s[10001];
 	int i,l,t;
-	while(scanf("%[^\n]",s)==1){
+	while(~scanf("%[^\n]",s)){
 		scanf("%*c");
 		l=strlen(s);
 		t=1;
@@ -11,7 +11,7 @@ int main(){
 			if(s[i]!=s[l-i-1]){
 				t=0;
 				break;
-		}
+			}
 		if(t)printf("YES\n");
 		else printf("NO\n");
 	}
