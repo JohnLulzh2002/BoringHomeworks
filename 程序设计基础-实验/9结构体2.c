@@ -19,9 +19,10 @@ int main(){
 	}
 	printf("Before:\n");
 	for(i=0;i<n;i++)
-		printf("%d	%s	%c	%d	%.2f\n",p[i]->num,
-			p[i]->name,p[i]->sex,
+		printf("%d	%s	%c	%d	%.2f\n",
+			p[i]->num,p[i]->name,p[i]->sex,
 			p[i]->age,p[i]->grade);
+
 	for(i=1;i<n;i++)
 		for(j=1;j<n-i;j++)
 			if(p[j-1]->grade>p[j]->grade){
@@ -29,10 +30,11 @@ int main(){
 				p[j-1]=p[j];
 				p[j]=t;
 			}
+
 	printf("\nAfter:\n");
 	for(i=0;i<n;i++)
-		printf("%d	%s	%c	%d	%.2f\n",p[i]->num,
-			p[i]->name,p[i]->sex,
+		printf("%d	%s	%c	%d	%.2f\n",
+			p[i]->num,p[i]->name,p[i]->sex,
 			p[i]->age,p[i]->grade);
 	return 0;
 }
