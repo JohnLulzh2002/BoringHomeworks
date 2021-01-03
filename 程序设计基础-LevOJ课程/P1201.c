@@ -1,8 +1,9 @@
 #include<stdio.h>
 int main(){
 	int n,m,a,k,t;
-	scanf("%*d");
-	while(~scanf("%d%d",&n,&m)){
+	scanf("%d",&k);
+	while(k--){
+		scanf("%d%d",&n,&m);
 		t=1;
 		for(a=1;a<m;a++)
 			if(!(n%a||n%(m-a))){

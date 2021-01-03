@@ -3,7 +3,7 @@
 #include<stdlib.h>
 int main(){
 	int n,i=0,j,k;
-	char s[40][8],t[8];
+	char s[50][10],t[10];
 	scanf("%d",&n);
 	for(;i<n;i++)
 		scanf("%s",s[i]);

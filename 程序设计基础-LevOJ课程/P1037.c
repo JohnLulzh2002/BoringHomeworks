@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main(){
-	int s=0,a,n;
-	scanf("%d",&n);
-	while(n--){
+	long long s=0;
+	int a,n;
+	for(scanf("%d",&n);n;n--){
 		scanf("%d",&a);
 		s+=a;
 	}
-	printf("%d",s);
+	printf("%lld",s);
 	return 0;
 }

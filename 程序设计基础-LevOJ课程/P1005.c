@@ -1,12 +1,13 @@
 #include<stdio.h>
 int main(){
 	int n,a,b,c;
-	for(scanf("%d",&n);n;n--){
+	for(scanf("%d",&n);n>0;n--){
 		scanf("%d%d",&a,&b);
-		if(a<b)
-			{c=a;a=b;b=c;}//a>b
-		while(c=a%b)
-			{a=b;b=c;}
+		if(a<b){c=a;a=b;b=c;}	//a>b
+		while(c=a%b){
+			if(c==0)break;
+			a=b;b=c;
+		}
 		printf("%d\n",b);
 	}
 	return 0;

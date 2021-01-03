@@ -11,10 +11,8 @@ int main(){
 				a++;
 			}
 		}
-		if(a)
-			printf("%.2lf\n",s/(double)a);
-		else
-			printf("-1\n");
+		if(a)	printf("%.2lf\n",(double)s/a);
+		else	printf("-1\n");
 	}
 	return 0;
 }
