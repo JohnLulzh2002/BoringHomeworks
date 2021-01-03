@@ -7,21 +7,17 @@ int prime(int n){
 	return 1;
 }
 int main(){
-	int n,a,b;
+	int n,a,b,t;
 	for(scanf("%d",&n);n;n--){
 		scanf("%d",&a);
-		if(prime(a)){
-			b=0;
-			while(a){
-				b*=10;
-				b+=a%10;
-				a/=10;
-			}
-			if(prime(b))
-				printf("1\n");
-			else
-				printf("0\n");
+		b=0;t=a;
+		while(t){
+			b*=10;
+			b+=t%10;
+			t/=10;
 		}
+		if(prime(a)&&prime(b))
+			printf("1\n");
 		else
 			printf("0\n");
 	}

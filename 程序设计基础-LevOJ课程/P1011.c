@@ -7,9 +7,9 @@ int main(){
 			b[i]=a%2;
 			a/=2;
 		}
-		for(i--;i+1;i--)
-			printf("%d",b[i]);
+		for(;i;i--)
+			printf("%d",b[i-1]);
 		printf("\n");
 	}
 	return 0;
-} 
+}

@@ -2,14 +2,12 @@
 int main(){
 	int n,a,b,i;
 	scanf("%d",&n);
-	for(;n;n--){
+	while(n--){
 		scanf("%d%d",&a,&b);
-		if(a>b)
-			i=b;
-		else
-			i=a;
+		if(a>b)	i=b;
+		else	i=a;
 		for(;i>0;i--)
-			if(a%i==0&&b%i==0){
+			if(!(a%i || b%i)){
 				printf("%d\n",i);
 				break;
 			}

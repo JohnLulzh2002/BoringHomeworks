@@ -16,4 +16,4 @@ int main(){
 	}
 	printf("%s\n%s",s[a],s[b]);
 	return 0;
-} 
+}
