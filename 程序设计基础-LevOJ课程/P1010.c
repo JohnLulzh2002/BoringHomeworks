@@ -7,8 +7,8 @@ int main(){
 			o[i]=a%8;
 			a/=8;
 		}
-		for(i--;i+1;i--)
-			printf("%d",o[i]);
+		for(;i;i--)
+			printf("%d",o[i-1]);
 		printf("\n");
 	}
 	return 0;

@@ -2,7 +2,7 @@
 void swap(int*a,int*b){
 	*a+=*b;
 	*b=*a-*b;
-	*a=*a-*b;
+	*a-=*b;
 }
 int main(){
 	int a,b,c,t;
