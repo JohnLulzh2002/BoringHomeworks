@@ -3,7 +3,7 @@
 const char a[28]={'V','W','X','Y','Z','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U'};
 int main(){
 	char s[15],c;
-	while(scanf("%s",s)){
+	while(~scanf("%s",s)){
 		if(!strcmp(s,"ENDOFINPUT"))
 			break;
 		scanf("%*c",&c);
