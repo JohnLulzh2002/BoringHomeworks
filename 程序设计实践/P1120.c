@@ -3,7 +3,7 @@
 int main(){
 	char a[201],b[201];
 	int la,lb,l,i,p,c[201];
-	while(~scanf("%s%s",&a,&b)){
+	while(~scanf("%s%s",a,b)){
 		la=strlen(a);lb=strlen(b);
 		p=0;
 		l=la>lb?la:lb;
