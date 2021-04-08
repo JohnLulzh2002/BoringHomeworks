@@ -9,7 +9,7 @@ int dec(int n){
 	}
 	return ans;
 }
-int maxdit(int n){
+void maxdit(int n){
 	while(n){
 		if(n%10>b)b=n%10;
 		n/=10;
