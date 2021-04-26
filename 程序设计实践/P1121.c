@@ -5,7 +5,6 @@ int main(){
 	int la,lb,c[201],p=0,i;
 	while(~scanf("%s%s",a,b)){
 		la=strlen(a);lb=strlen(b);
-			c[i]=0;
 		for(i=0;i<201;++i)c[i]=0;
 		for(i=1;i<=la;i++){
 			if(i<=lb)c[i]=a[la-i]-b[lb-i]-p;
