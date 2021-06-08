@@ -27,7 +27,7 @@ int main(){
 				c[lc]%=10;
 			}
 		}
-		for(lc--;lc>=0;lc--)
+		while(lc--)
 			printf("%d",c[lc]);
 		printf("\n");
 	}
