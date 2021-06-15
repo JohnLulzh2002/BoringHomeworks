@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-int cmp(void*a,void*b)
+int cmp(const void*a,const void*b)
 {return *(int*)a-*(int*)b;}
 int main(){
 	int n,t,i,a[50001];
