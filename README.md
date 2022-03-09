@@ -1,4 +1,4 @@
-## Boring homeworks in NUIST and their answers
+## Boring homeworks in NUIST School of Computer Science
 
 ### By JohnLu
 
@@ -12,4 +12,6 @@
 
 各位尽量看懂再抄。不过有些东西实在无聊，糊弄糊弄老师就好了吧。
 
-非编程题使用Markdown编写，如果显示异常，请复制到本地的.md文件，并使用[Typora](https://typora.io/)或是[VSCode](https://code.visualstudio.com/Download)的[Markdown All in One插件](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)查看。
+非编程题使用Markdown编写，如果显示异常，请复制到本地的.md文件，并使用[VSCode](https://code.visualstudio.com/Download)的[Markdown All in One插件](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)或是[Typora](https://typora.io/)查看。
+
+本仓库有[Gitee镜像](https://gitee.com/JohnLuLZH/BoringHomeworks)，供[主页](https://github.com/JohnLulzh2002/BoringHomeworks)被GFW限制时访问，但不是同步更新。
