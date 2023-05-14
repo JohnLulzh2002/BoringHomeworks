@@ -1,0 +1,11 @@
+f2=imread('0309.bmp');
+g1=double(f2)/255.0;
+g1=uint8(g1.^2*255+0.5);
+g2=double(f2)/255.0;
+g2=uint8(g2.^5*255+0.5);
+subplot(2,3,1);imshow(f2);title('0309');
+subplot(2,3,2);imshow(g1);title('power-2');
+subplot(2,3,3);imshow(g2);title('power-5');
+subplot(2,3,4);hist(f2);title('0309-hist');
+subplot(2,3,5);hist(g1);title('power-2-hist');
+subplot(2,3,6);hist(g2);title('power-5-hist');
